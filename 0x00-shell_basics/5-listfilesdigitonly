@@ -1,2 +1,2 @@
 #!/bin/bash
-drwxr-xr-x
+ls -al -lh -a
