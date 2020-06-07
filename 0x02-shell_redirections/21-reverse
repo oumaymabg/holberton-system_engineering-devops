@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p rev "Enter string:" string
+read rev "Enter string:" string
