@@ -1,2 +1,2 @@
 #!/bin/bash
-more -3
+more -n 3 iacta
