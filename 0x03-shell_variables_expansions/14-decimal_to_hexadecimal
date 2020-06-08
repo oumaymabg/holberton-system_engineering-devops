@@ -1,2 +1,2 @@
 #!/bin/bash
-export $((16#$DECIMAL)) 
+printf'%x\n'$DECIMAL $((16#$DECIMAL)) 
