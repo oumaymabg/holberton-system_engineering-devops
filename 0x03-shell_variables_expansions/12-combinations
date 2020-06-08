@@ -1,2 +1,2 @@
 #!/bin/bash
-echo [aa zz] | awk
+echo {a..n}{a..z} o{a..n} o{p..z} {p..z}{a..z} | tr ' ' '\n'
