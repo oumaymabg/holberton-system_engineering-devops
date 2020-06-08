@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'BEGIN{printf "%.2f\n",$NUM}'
+echo "scale=2; $NUM" | bc
