@@ -1,0 +1,2 @@
+#!/bin/bashtail -n 10 my_file  
+tail -n 10 passwd  
