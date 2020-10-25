@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#use the while loop and  the if, elif and else statements
+n=1
+while [ $n -le 10 ]
+do
+echo "Holberton School"
+n=$(( n + 1 ))
+if [ $n -eq 4 ]
+then
+echo "Bad luck"
+fi
+if [ $n -eq 7 ]
+then
+echo "good luck"
+fi
+done
