@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#The content of the current directory/In a list format/Where only the part of the name after the first dash is displayedWhere only the part of the name after the first dash is displayed
+for n in *;
+do
+echo "$n" | cut -d "-" -f 2
+done
