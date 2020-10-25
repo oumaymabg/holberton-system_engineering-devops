@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#use the while loop and the if statement
+n=1
+while [ $n -le 10 ]
+do 
+echo "Holberton School"
+n=$(( n + 1 ))
+if [ $n -eq 10 ]
+then
+echo "Hi"
+fi
+done
