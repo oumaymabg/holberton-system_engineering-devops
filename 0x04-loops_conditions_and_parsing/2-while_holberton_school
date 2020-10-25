@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#While Holberton School loop use the while loop
+n=1
+while [ $n -le 10 ]
+do
+echo "holberton $n school"
+n=$(( n + 1 ))
+done
