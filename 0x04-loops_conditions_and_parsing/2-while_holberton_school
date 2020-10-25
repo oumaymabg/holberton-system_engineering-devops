@@ -3,6 +3,6 @@
 n=1
 while [ $n -le 10 ]
 do
-    echo "holberton $n school"
-    n=$(( n + 1 ))
+echo "holberton school"
+n=$(( n + 1 ))
 done
