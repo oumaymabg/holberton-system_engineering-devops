@@ -4,6 +4,6 @@ count=1
 n=10
 until [ $n -lt $count ];
 do
-echo "holberton school"
+echo "Holberton School"
 let n--
 done
