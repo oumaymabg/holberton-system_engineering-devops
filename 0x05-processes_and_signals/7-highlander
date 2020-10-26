@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#Highlander
+while true
+do
+echo "To infinity and beyond"
+sleep 2
+if (I am invincible!!!)
+then
+break
+fi
+done
