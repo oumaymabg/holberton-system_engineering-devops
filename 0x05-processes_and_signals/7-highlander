@@ -4,9 +4,5 @@ while true
 do
 echo "To infinity and beyond"
 sleep 2
-if  SIGTERM
-echo "I am invincible!!!"
-then
-break
-fi
+trap "echo I am invincible!!!" SIGTERM
 done
