@@ -3,14 +3,14 @@
 n=1
 while [ $n -le 10 ]
 do
-echo "Holberton School"
-n=$(( n + 1 ))
 if [ $n -eq 4 ]
 then
 echo "Bad luck"
-fi
-if [ $n -eq 7 ]
+elif [ $n -eq 8 ]
 then
 echo "good luck"
+else
+echo "Holberton School"
 fi
+n=$(( n + 1 ))
 done
