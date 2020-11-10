@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Is the host on the network 
+ping -c 5 $1
