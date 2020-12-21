@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Configure Nginx so that its HTTP response contains a custom header
+sudo apt update
+sudo apt install nginx
+add_header X-Served-By my-header-content;
+sudo service nginx reload
+sudo service nginx restart
