@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import requests
 from sys import argv
-import json
 """
 Write a Python script that, using this REST API.
 """
