@@ -8,7 +8,7 @@ Write a Python script that, using this REST API.
 
 if __name__ == "__main__":
     """
-    display on the standard output the employee TODO list
+    display on the standard output the employee todo list
     """
     ID = int(argv[1])
     user = requests.get("https://jsonplaceholder.typicode.com/users/{}".
